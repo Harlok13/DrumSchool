@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DFC4759-085D-4BE0-B209-4E832BD43E76}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{770AAD86-C2B9-44EF-AD22-8AC68B37A506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrumSchool", "src\DrumSchool\DrumSchool.csproj", "{5955951D-36A7-4D25-949A-E5EDCDE07623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrumSchool.Domain", "src\DrumSchool.Domain\DrumSchool.Domain.csproj", "{C92F5A89-03DA-49C3-927B-14DCC37A99C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrumSchool.Persistence", "src\DrumSchool.Persistence\DrumSchool.Persistence.csproj", "{AFF38740-942D-435B-8BD0-210D466E19D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrumSchool.Application", "src\DrumSchool.Application\DrumSchool.Application.csproj", "{981B67F0-7051-45B1-950D-1CC70A2AD725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5955951D-36A7-4D25-949A-E5EDCDE07623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5955951D-36A7-4D25-949A-E5EDCDE07623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5955951D-36A7-4D25-949A-E5EDCDE07623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5955951D-36A7-4D25-949A-E5EDCDE07623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92F5A89-03DA-49C3-927B-14DCC37A99C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92F5A89-03DA-49C3-927B-14DCC37A99C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92F5A89-03DA-49C3-927B-14DCC37A99C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92F5A89-03DA-49C3-927B-14DCC37A99C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF38740-942D-435B-8BD0-210D466E19D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF38740-942D-435B-8BD0-210D466E19D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF38740-942D-435B-8BD0-210D466E19D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF38740-942D-435B-8BD0-210D466E19D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981B67F0-7051-45B1-950D-1CC70A2AD725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981B67F0-7051-45B1-950D-1CC70A2AD725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981B67F0-7051-45B1-950D-1CC70A2AD725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981B67F0-7051-45B1-950D-1CC70A2AD725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5955951D-36A7-4D25-949A-E5EDCDE07623} = {770AAD86-C2B9-44EF-AD22-8AC68B37A506}
+		{C92F5A89-03DA-49C3-927B-14DCC37A99C9} = {770AAD86-C2B9-44EF-AD22-8AC68B37A506}
+		{AFF38740-942D-435B-8BD0-210D466E19D2} = {770AAD86-C2B9-44EF-AD22-8AC68B37A506}
+		{981B67F0-7051-45B1-950D-1CC70A2AD725} = {770AAD86-C2B9-44EF-AD22-8AC68B37A506}
+	EndGlobalSection
+EndGlobal
